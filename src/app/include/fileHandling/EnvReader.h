@@ -6,7 +6,7 @@
 
 #include <fileHandling/IO.h>
 
-class envReader{
+class EnvReader{
 public:
 	static std::string get_env(){
 		const std::string env_path = ".env";

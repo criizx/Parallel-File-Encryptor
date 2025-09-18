@@ -3,6 +3,7 @@
 #include <string>
 
 #include <processes/ProcessManagement.h>
+#include <encryptDecrypt/Cryption.h>
 
 bool ProcessManagement::submitToQueue(std::unique_ptr<Task> task){
 	taskQueue.push(std::move(task));

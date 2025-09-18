@@ -14,4 +14,5 @@ add_executable(Parallel_File_Encryptor
         src/app/include/processes/Task.h
         src/app/src/encryptDecrypt/Cryption.cpp
         src/app/include/encryptDecrypt/Cryption.h
+        src/app/src/encryptDecrypt/CryptionMain.cpp
 )

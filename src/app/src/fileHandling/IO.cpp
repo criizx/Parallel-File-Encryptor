@@ -16,9 +16,6 @@ IO::~IO(){
 	}
 }
 
-
-
-
 std::fstream IO::getFileStream(){
 	return std::move(file_stream);
 }
